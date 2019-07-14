@@ -1,0 +1,8 @@
+[submodule "themes/ezhill"]
+	path = themes/ezhill
+	url = https://github.com/vividvilla/ezhil.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:boosterl/boosterl.github.io.git
+	branch = master
