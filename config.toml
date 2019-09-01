@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://worldbeyondlinux.be/"
 languageCode = "en-us"
 title = "The world beyond Linux"
 theme = "ezhil"
