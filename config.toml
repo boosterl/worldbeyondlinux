@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "The world beyond Linux"
 theme = "ezhil"
 
+pygmentsstyle = "pastie"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [params]
 	# Blog subtitle which appears below blog title. Supports markdown.
 	subtitle = "My personal blog about Linux, FOSS, personal projects and other things"
