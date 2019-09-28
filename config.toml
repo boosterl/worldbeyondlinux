@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true
 	recentPostsCount = 10
 	# Content types which are excluded from recent posts and archive page (Optional). Defaults to ["page"]
 	excludedTypes = ["page"]
-	disableDisqusTypes = ["post"]
+	disableDisqusTypes = ["posts"]
 	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
 	featherIconsCDN = true
 

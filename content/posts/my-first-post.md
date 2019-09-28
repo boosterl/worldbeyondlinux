@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2019-04-24T21:12:51+02:00
-type: post
+type: posts
 draft: false
 ---
 Hello there, this is my first blog post. Let me first start by saying a few words about myself, my name is Bram Oosterlynck and I was born in Belgium. In my free time I like to do a lot of stuff, camping, hiking, road trips, etc. But this blog will be about something else I love doing in my free time. I love playing around with technology, and that is what this blog will be about.
