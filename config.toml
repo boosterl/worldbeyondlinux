@@ -7,6 +7,8 @@ pygmentsstyle = "pastie"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+enableRobotsTXT = true
+
 [params]
 	# Blog subtitle which appears below blog title. Supports markdown.
 	subtitle = "My personal blog about Linux, FOSS, personal projects and other things"
