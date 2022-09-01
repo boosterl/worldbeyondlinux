@@ -24,7 +24,7 @@ Raspberry Pi TX  ---> MangoPi RX
 
 Raspberry Pi RX  ---> MangoPi TX
 ```
-![Wiring](images/wiring.jpg)
+![Wiring](/posts/how-to-use-a-pi-instead-of-a-usb-console-cable/images/wiring.jpg)
 
 ## Enabling the serial hardware on a Raspberry Pi
 
