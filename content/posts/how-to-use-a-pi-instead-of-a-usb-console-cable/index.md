@@ -6,6 +6,7 @@ tags:
   - mangopi-mq-pro
   - raspberry-pi
   - serial
+  - risc-v
 draft: false
 ---
 As the title says, this article will be about using a Raspberry Pi SBC (whatever model), instead of a USB Console Cable to debug another SBC, router, microcontroller... The need for this came when I received my [MangoPi MQ-Pro][1], I wanted to try different operating systems for this SBC, but I didn't have access to a USB Console Cable, at least not one that was 3.3V tolerant. I wanted to have access to the serial console because a lot of OS images for the MangoPi, at the time of writing this article, didn't have HDMI drivers. I have already used a Raspberry Pi to flash and interact with micropython on an ESP8266, so I thought, why not use the same method to interact with my new MangoPi.

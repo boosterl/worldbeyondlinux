@@ -1,6 +1,11 @@
 ---
 title: "Running x86_64 Software on RISC-V Using Box64"
 date: 2022-09-19T18:44:12+02:00
+tags:
+  - mangopi-mq-pro
+  - risc-v
+  - box64
+draft: false
 ---
 In this post I will give an overview on how a ran some software compiled for x86_64 on my RISC-V SBC, a [MangoPi MQ-Pro](https://mangopi.cc/mangopi_mqpro).
 We will be using an awesome piece of software called [Box64](https://github.com/ptitSeb/box64/).
