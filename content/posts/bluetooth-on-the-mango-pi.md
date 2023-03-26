@@ -1,5 +1,5 @@
 ---
-title: "Setting up bluetooth on the MangoPi MQ-Pro, and testing it out with a bluetooth access point"
+title: "Setting up Bluetooth on the MangoPi MQ-Pro, and testing it out with a Bluetooth access point"
 date: 2023-03-25T17:17:55+01:00
 tags:
   - mangopi-mq-pro
@@ -12,11 +12,11 @@ I received my MangoPi MQ-Pro a few months ago, and was very eager to test out
 all the hardware which I use the most on SBC's. Bluetooth is not one of the
 features I use a lot on SBC's. But after having tested out a lot of operating
 systems and hardware features of the board, I decided to also try and see what
-the status of bluetooth on the board was.
+the status of Bluetooth on the board was.
 
-Because I use my MangoPi headless almost always, I couldn't test bluetooth with
+Because I use my MangoPi headless almost always, I couldn't test Bluetooth with
 an input device. I also don't use audio on the board. So I decided to try to
-set up a bluetooth access point on the board. I already successfully tried this
+set up a Bluetooth access point on the board. I already successfully tried this
 on a Raspberry Pi.
 
 I used the [Ubuntu 22.10 RISC-V image for the SiPeed LicheeRV Dock](https://ubuntu.com/download/risc-v).
@@ -28,7 +28,7 @@ $ sudo apt udpate
 $ sudo apt upgrade
 $ sudo reboot
 ```
-After this, when trying to load the kernel module necessary for bluetooth, a
+After this, when trying to load the kernel module necessary for Bluetooth, a
 warning in the kernel logs will appear that the firmware and config for the
 radio are not available.
 ```
@@ -65,16 +65,16 @@ hci0:   Type: Primary  Bus: UART
         TX bytes:34947 acl:0 sco:0 commands:167 errors:0
 ```
 
-Now that the radio is up and running, we can prepare the userspace for bluetooth.
+Now that the radio is up and running, we can prepare the userspace for Bluetooth.
 First of all we will need to install `bluez` and `bluez-utils`, and enable the
-bluetooth service:
+Bluetooth service:
 ```
 sudo apt install bluez bluez-tools
 sudo apt install bluez bluez-tools
 ```
 
-There you have it, you can start using bluetooth with `bluetoothctl`. If you
-also want to configure a bluetooth access point, read on!
+There you have it, you can start using Bluetooth with `bluetoothctl`. If you
+also want to configure a Bluetooth access point, read on!
 
 A few new config files will need to be created for this to work, so keep your
 editor of choice by hand.
@@ -158,15 +158,15 @@ You can then connect new devices by issuing the following command:
 sudo bt-adapter --set Discoverable 1
 ```
 
-Go into the bluetooth settings of your phone/tablet/laptop/... to search for a
-new bluetooth devices, and it should connect to it and use it as a bluetooth
+Go into the Bluetooth settings of your phone/tablet/laptop/... to search for a
+new Bluetooth devices, and it should connect to it and use it as a Bluetooth
 access point. After this is done, you can turn of the discovery:
 ```
 sudo bt-adapter --set Discoverable 0
 ```
 
 When executing some tests using iperf3, with my Pixel 6 as a client, the resulst
-seem to be pretty good for what you can expect from a 6 year old bluetooth 4.2
+seem to be pretty good for what you can expect from a 6 year old Bluetooth 4.2
 module, the connection also seems to be very stable:
 ```
 -----------------------------------------------------------
@@ -211,6 +211,6 @@ Accepted connection from 172.20.1.184, port 57286
 [  5]   0.00-10.05  sec  1.00 MBytes   838 Kbits/sec    0             sender
 ```
 
-After this experiment I also tried to enable bluetooth support in the excellent
+After this experiment I also tried to enable Bluetooth support in the excellent
 [Arch image](https://github.com/sehraf/d1-riscv-arch-image-builder) for the D1.
 I didn't succeed in this yet. I am probably missing some kernel config options.
