@@ -7,6 +7,7 @@ tags:
   - freebsd
   - xv6
 draft: false
+description: As of writing this article, there are a few choices of operating systems to choose from for the Allwinner D1. In the future, more choices will probably become available. In this article we will take a closer look into FreeBSD and xv6 for the Allwinner D1. I will use a MangoPi MQ-Pro to test these operating systems.
 ---
 # Introduction
 

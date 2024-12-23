@@ -7,6 +7,7 @@ tags:
   - bluetooth
   - ubuntu
 draft: false
+description: I received my MangoPi MQ-Pro a few months ago, and was very eager to test out all the hardware which I use the most on SBC's. Bluetooth is not one of the features I use a lot on SBC's. But after having tested out a lot of operating systems and hardware features of the board, I decided to also try and see what the status of Bluetooth on the board was.
 ---
 I received my MangoPi MQ-Pro a few months ago, and was very eager to test out
 all the hardware which I use the most on SBC's. Bluetooth is not one of the

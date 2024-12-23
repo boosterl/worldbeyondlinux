@@ -9,6 +9,7 @@ tags:
   - android
   - wearables
 draft: false
+description: The first question you might ask yourself when reading the title of this article is; why would you want to this. My answer to that question is, why wouldn't you?
 ---
 
 The first question you might ask yourself when reading the title of this article is; why would you want to this. My answer to that question is, why wouldn't you?

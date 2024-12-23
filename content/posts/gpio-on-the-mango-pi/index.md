@@ -7,9 +7,10 @@ tags:
   - gpio
   - ubuntu
 draft: false
+description: One of the last aspects I wanted to explore and get working on my MangoPi MQ-Pro, is GPIO. For this experiment, like my previous endeavor trying out Bluetooth on my MangoPi MQ-Pro, I used the Ubuntu 22.10 RISC-V image for the SiPeed LicheeRV Dock image.
 ---
 One of the last aspects I wanted to explore and get working on my MangoPi
-MQ-Pro. For this experiment, like my previous endeavor
+MQ-Pro, is GPIO. For this experiment, like my previous endeavor
 [trying out Bluetooth on my MangoPi MQ-Pro](https://worldbeyondlinux.be/posts/bluetooth-on-the-mango-pi/),
 I used the [Ubuntu 22.10 RISC-V image for the SiPeed LicheeRV Dock](https://ubuntu.com/download/risc-v)
 image.
