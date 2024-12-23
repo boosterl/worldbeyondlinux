@@ -60,25 +60,25 @@ for this:
 So, if you have connected an output (LED) to pin 18, we need to access this
 using pin 110. With the following command we can start interacting with this
 exact pin, these will have to be ran as root:
-```bash
-# echo 110 >/sys/class/gpio/export
-# echo out >/sys/class/gpio/gpio110/direction
+```console
+# echo 110 > /sys/class/gpio/export
+# echo out > /sys/class/gpio/gpio110/direction
 # cat /sys/class/gpio/gpio110/direction
 ```
 
 To make the LED light up, you can execute this command:
-```bash
+```console
 # echo 1 > /sys/class/gpio/gpio110/value
 ```
 
 And to turn it off again:
-```bash
+```console
 # echo 0 > /sys/class/gpio/gpio110/value
 ```
 
 When you're done playing around, you can remove the resources to this pin:
-```bash
-# echo 110 >/sys/class/gpio/unexport
+```console
+# echo 110 > /sys/class/gpio/unexport
 ```
 
 To make the LED blink, you can create a simple script:
@@ -95,13 +95,13 @@ done
 # Userspace GPIO driver
 
 To make the same LED turn on as in the previous step, you can execute:
-```bash
+```console
 # gpioset gpiochip0 110=1
 ```
 
 And to turn if off again:
-```bash
-gpioset gpiochip0 110=0
+```console
+# gpioset gpiochip0 110=0
 ```
 
 And a script to make it blink:
@@ -118,7 +118,7 @@ done
 # Lgpio from Python
 
 To use the GPIO pins from Python, we will have to install a package:
-```
+```console
 # apt update
 # apt install python3-lgpio
 ```
