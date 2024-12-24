@@ -1,8 +1,14 @@
 ---
 title: "Flash an ESP8266 Using a Raspberry Pi"
 date: 2024-12-23T17:50:44+01:00
+tags:
+  - raspberry-pi
+  - serial
+  - esp8266
+  - esp12f
+  - micropython
 draft: false
-description: "In this guide I will be explaining how I flash an ESP8266 chip using a Raspberry Pi. More specifically; a Raspberry Pi 2. But any model with GPIO pins will do. In this guide I will be flashing MicroPython on the chip."
+description: In this guide I will be explaining how I flash an ESP8266 chip using a Raspberry Pi. More specifically; a Raspberry Pi 2. But any model with GPIO pins will do. In this guide I will be flashing MicroPython on the chip.
 ---
 In this guide I will be explaining how I flash an ESP8266 chip using a
 Raspberry Pi. More specifically; a Raspberry Pi 2. But any model with GPIO pins
