@@ -1,7 +1,7 @@
 ---
 title: "Playing around with Gentoo on riscv32"
 date: 2025-03-12T13:55:34+01:00
-draft: true
+draft: false
 description: Since the first time I learned about the existence of RISC-V, I have been fascinated by it. I wanted to run operating systems on it, and try out software on the ISA.
 ---
 Since the first time I learned about the existence of RISC-V, I have been
